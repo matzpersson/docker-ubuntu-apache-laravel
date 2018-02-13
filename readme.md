@@ -8,7 +8,7 @@ Some information
  * docker-compose build
  * docker-compose up
  
-This will start apache webserver and Mysql. Go into the container to complete Composer installation:
+This will start apache webserver and Mysql. Go into a second instance of the container to complete Composer installation:
  * docker exec -it <imagename> bash
  * composer install
  
