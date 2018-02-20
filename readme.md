@@ -14,7 +14,7 @@ This will start apache webserver and Mysql. Go into a second instance of the con
  * composer install
  
 Create the Mysql db. Use pwd's defined in docker-compose.yml:
- * mysql -u next5_db_1 -u root -p
+ * mysql -h next5_db_1 -u root -p
  * create database next5;
  * grant all privileges on *.* to 'laravel'@'%';
  * exit
